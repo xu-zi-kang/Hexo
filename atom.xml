@@ -6,7 +6,7 @@
   <link href="https://xu-zi-kang.github.io/atom.xml" rel="self"/>
   
   <link href="https://xu-zi-kang.github.io/"/>
-  <updated>2024-01-23T07:24:53.080Z</updated>
+  <updated>2024-01-23T08:41:43.480Z</updated>
   <id>https://xu-zi-kang.github.io/</id>
   
   <author>
@@ -17,13 +17,53 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>【小雅】自动清理阿里云盘缓存</title>
+    <link href="https://xu-zi-kang.github.io/2024/01/23/%E3%80%90%E5%B0%8F%E9%9B%85%E3%80%91%E8%87%AA%E5%8A%A8%E6%B8%85%E7%90%86%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98%E7%BC%93%E5%AD%98/"/>
+    <id>https://xu-zi-kang.github.io/2024/01/23/%E3%80%90%E5%B0%8F%E9%9B%85%E3%80%91%E8%87%AA%E5%8A%A8%E6%B8%85%E7%90%86%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98%E7%BC%93%E5%AD%98/</id>
+    <published>2024-01-23T08:40:49.000Z</published>
+    <updated>2024-01-23T08:41:43.480Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">模式0：每天自动清理一次。如果系统重启需要手动重新运行或把命令加入系统启动。</span><br><span class="line">bash -c <span class="string">&quot;<span class="subst">$(curl -s https://xiaoyahelper.zngle.cf/aliyun_clear.sh | tail -n +2)</span>&quot;</span> -s 0 -tg</span><br></pre></td></tr></table></figure><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">模式1：一次性清理，一般用于测试效果。</span><br><span class="line">bash -c <span class="string">&quot;<span class="subst">$(curl -s https://xiaoyahelper.zngle.cf/aliyun_clear.sh | tail -n +2)</span>&quot;</span> -s 1 -tg</span><br></pre></td></tr></table></figure><h4 id="模式2：已废弃，不再支持"><a href="#模式2：已废弃，不再支持" class="headerlink" title="模式2：已废弃，不再支持"></a><del>模式2：已废弃，不再支持</del></h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">模式3：创建一个名为 xiaoyakeeper 的docker定时运行小雅转存清理并升级小雅镜像</span><br><span class="line">bash -c <span class="string">&quot;<span class="subst">$(curl -s https://xiaoyahelper.zngle.cf/aliyun_clear.sh | tail -n +2)</span>&quot;</span> -s 3 -tg</span><br></pre></td></tr></table></figure><p><del>模式4：同模式3</del></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">模式5：与模式3的区别是实时清理，只要产生了播放缓存一分钟内立即清理。签到和定时升级同模式3</span><br><span class="line">bash -c <span class="string">&quot;<span class="subst">$(curl -s https://xiaoyahelper.zngle.cf/aliyun_clear.sh | tail -n +2)</span>&quot;</span> -s 5 -tg</span><br></pre></td></tr></table></figure><h3 id="推荐模式3和模式5"><a href="#推荐模式3和模式5" class="headerlink" title="推荐模式3和模式5"></a>推荐模式3和模式5</h3><p> <em><strong>*发送验证码说明：*</strong></em></p><blockquote><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">可以等待20秒，即自动跳过此部分，不影响正常使用。</span><br><span class="line">需要发送验证码的可以TG自行查找：xiaoyahelper_bot</span><br></pre></td></tr></table></figure></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>【git】完美解决git报错</title>
+    <link href="https://xu-zi-kang.github.io/2024/01/23/%E3%80%90git%E3%80%91%E5%AE%8C%E7%BE%8E%E8%A7%A3%E5%86%B3git%E6%8A%A5%E9%94%99/"/>
+    <id>https://xu-zi-kang.github.io/2024/01/23/%E3%80%90git%E3%80%91%E5%AE%8C%E7%BE%8E%E8%A7%A3%E5%86%B3git%E6%8A%A5%E9%94%99/</id>
+    <published>2024-01-23T08:37:50.000Z</published>
+    <updated>2024-01-23T08:39:51.652Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="完美解决-git报错fatal-unable-to-access-‘https-github-com-git‘-Recv-failure-Connection-was-reset"><a href="#完美解决-git报错fatal-unable-to-access-‘https-github-com-git‘-Recv-failure-Connection-was-reset" class="headerlink" title="完美解决 git报错fatal: unable to access ‘https://github.com/.../.git‘:Recv failure Connection was reset"></a>完美解决 git报错fatal: unable to access ‘<a href="https://github.com/.../.git%E2%80%98:Recv">https://github.com/.../.git‘:Recv</a> failure Connection was reset</h1><p>在使用git时，经常会碰到这个错误：fatal: unable to access ‘<a href="https://github.com/.../.git':Recv">https://github.com/.../.git&#39;:Recv</a> failure Connection was reset。</p><p>结合我个人最近的使用经验，提供两个方法，亲测有效。</p><p>方法一<br>该方法也是最常见的方法，那就是在终端执行：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global --unset http.proxy </span><br><span class="line">git config --global --unset https.proxy</span><br></pre></td></tr></table></figure><h2 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h2><p>本人之前在使用git时，有些时候使用方法一就能解决问题，有些时候还是会报错，下面这个方法，能够完美地解决报错。</p><p><a href="https://so.csdn.net/so/search?q=%E7%B3%BB%E7%BB%9F%E8%AE%BE%E7%BD%AE&spm=1001.2101.3001.7020">系统设置</a>搜索代理，然后点击编辑按钮：<br><img src="https://img-blog.csdnimg.cn/a2cad54ac3ea4705a01709eca9930978.png" alt="在这里插入图片描述"></p><p>打开<a href="https://so.csdn.net/so/search?q=%E4%BB%A3%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8&spm=1001.2101.3001.7020">代理服务器</a>，端口设置为<code>7890</code>，这个对你正常上网没有影响，可以放心设置。然后点击保存。</p><p><img src="https://img-blog.csdnimg.cn/0f403beb730149d680f1f4d4ab0b2472.png" alt="在这里插入图片描述"></p><p>然后在终端输入命令：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --global http.proxy http://127.0.0.1:7890</span><br></pre></td></tr></table></figure><p>这样就大功告成了。可以在终端输入<code>git config --global -l</code>加以检验是否设置成功：</p><p><img src="https://img-blog.csdnimg.cn/8fd73100caf64012a736f16b25a9aed9.png" alt="在这里插入图片描述"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;完美解决-git报错fatal-unable-to-access-‘https-github-com-git‘-Recv-failure-Connection-was-reset&quot;&gt;&lt;a href=&quot;#完美解决-git报错fatal-unable-to-acces</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>【git】生成sshKey密匙</title>
     <link href="https://xu-zi-kang.github.io/2024/01/23/%E3%80%90git%E3%80%91%E7%94%9F%E6%88%90sshKey%E5%AF%86%E5%8C%99/"/>
     <id>https://xu-zi-kang.github.io/2024/01/23/%E3%80%90git%E3%80%91%E7%94%9F%E6%88%90sshKey%E5%AF%86%E5%8C%99/</id>
     <published>2024-01-23T07:24:08.000Z</published>
     <updated>2024-01-23T07:24:53.080Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="3-1-生成ssh-key"><a href="#3-1-生成ssh-key" class="headerlink" title="3-1 生成ssh key"></a>3-1 生成ssh key</h2><p>首先检查是否已生成密钥 <code>cd ~/.ssh</code>，ls如果有2个文件，则密钥已经生成，id_rsa.pub就是公钥</p><p><img src="https://pic4.zhimg.com/80/v2-25d08d16d7ac6837d36f7b4dc2fb8d77_720w.webp" alt="img"></p><p>也可以打开我的电脑C:\Users\Y\ .ssh 里面找到</p><p><img src="https://pic4.zhimg.com/80/v2-f6d1ed1cc81d87091a8377551a1f499f_720w.webp" alt="img"></p><p>如果没有生成，那么通过$ ssh-keygen -t rsa -C “<a href="mailto:&#120;&#120;&#x78;&#x78;&#120;&#120;&#x40;&#49;&#x36;&#x33;&#46;&#x63;&#111;&#x6d;">&#120;&#120;&#x78;&#x78;&#120;&#120;&#x40;&#49;&#x36;&#x33;&#46;&#x63;&#111;&#x6d;</a>”来生成。</p><p>1）是路径确认，直接按回车存默认路径即可</p><p>2）直接回车键，这里我们不使用密码进行登录, 用密码太麻烦;</p><p>3）直接回车键</p><p><img src="https://pic2.zhimg.com/80/v2-d39142ec5219c9b6b4cd86f422df36cd_720w.webp" alt="img"></p><p>生成成功后，去对应目录C:\Users\Y\ .ssh里（Y为电脑用户名，每个人不同）用记事本打开id_rsa.pub，得到ssh key公钥</p><p><img src="https://pic4.zhimg.com/80/v2-bae8ba2dad5a59ba34aa9a76c3ed8b53_720w.webp" alt="img"></p><h2 id="3-2-为github账号配置ssh-key"><a href="#3-2-为github账号配置ssh-key" class="headerlink" title="3-2 为github账号配置ssh key"></a>3-2 为github账号配置ssh key</h2><p>切换到github，展开个人头像的小三角，点击settings</p><p><img src="https://pic4.zhimg.com/80/v2-2891d0ae8b1b3657b64435504b42f433_720w.webp" alt="img"></p><p>然后打开SSH keys菜单， 点击Add SSH key新增密钥，填上标题，跟仓库保持一致吧，好区分。</p><p>接着将id_rsa.pub文件中key粘贴到此，最后Add key生成密钥吧。</p><p><img src="https://pic3.zhimg.com/80/v2-3e5691de58e3f59442e3d2b7a0f2298e_720w.webp" alt="img"></p><p>如此，github账号的SSH keys配置完成。</p><p><img src="https://pic4.zhimg.com/80/v2-656246b7f8e281a0baa8ba50f9de874f_720w.webp" alt="img"></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="3-1-生成ssh-key"><a href="#3-1-生成ssh-key" class="headerlink" title="3-1 生成ssh key"></a>3-1 生成ssh key</h2><p>首先检查是否已生成密钥 <code>cd ~/.ssh</code>，ls如果有2个文件，则密钥已经生成，id_rsa.pub就是公钥</p><p><img src="https://pic4.zhimg.com/80/v2-25d08d16d7ac6837d36f7b4dc2fb8d77_720w.webp" alt="img"></p><p>也可以打开我的电脑C:\Users\Y\ .ssh 里面找到</p><p><img src="https://pic4.zhimg.com/80/v2-f6d1ed1cc81d87091a8377551a1f499f_720w.webp" alt="img"></p><p>如果没有生成，那么通过$ ssh-keygen -t rsa -C “<a href="mailto:&#120;&#120;&#120;&#x78;&#120;&#120;&#64;&#x31;&#54;&#x33;&#x2e;&#x63;&#111;&#109;">&#120;&#120;&#120;&#x78;&#120;&#120;&#64;&#x31;&#54;&#x33;&#x2e;&#x63;&#111;&#109;</a>”来生成。</p><p>1）是路径确认，直接按回车存默认路径即可</p><p>2）直接回车键，这里我们不使用密码进行登录, 用密码太麻烦;</p><p>3）直接回车键</p><p><img src="https://pic2.zhimg.com/80/v2-d39142ec5219c9b6b4cd86f422df36cd_720w.webp" alt="img"></p><p>生成成功后，去对应目录C:\Users\Y\ .ssh里（Y为电脑用户名，每个人不同）用记事本打开id_rsa.pub，得到ssh key公钥</p><p><img src="https://pic4.zhimg.com/80/v2-bae8ba2dad5a59ba34aa9a76c3ed8b53_720w.webp" alt="img"></p><h2 id="3-2-为github账号配置ssh-key"><a href="#3-2-为github账号配置ssh-key" class="headerlink" title="3-2 为github账号配置ssh key"></a>3-2 为github账号配置ssh key</h2><p>切换到github，展开个人头像的小三角，点击settings</p><p><img src="https://pic4.zhimg.com/80/v2-2891d0ae8b1b3657b64435504b42f433_720w.webp" alt="img"></p><p>然后打开SSH keys菜单， 点击Add SSH key新增密钥，填上标题，跟仓库保持一致吧，好区分。</p><p>接着将id_rsa.pub文件中key粘贴到此，最后Add key生成密钥吧。</p><p><img src="https://pic3.zhimg.com/80/v2-3e5691de58e3f59442e3d2b7a0f2298e_720w.webp" alt="img"></p><p>如此，github账号的SSH keys配置完成。</p><p><img src="https://pic4.zhimg.com/80/v2-656246b7f8e281a0baa8ba50f9de874f_720w.webp" alt="img"></p>]]></content>
     
     
       
@@ -123,15 +163,14 @@
     <link href="https://xu-zi-kang.github.io/2024/01/12/hexo%E6%8C%87%E4%BB%A4/"/>
     <id>https://xu-zi-kang.github.io/2024/01/12/hexo%E6%8C%87%E4%BB%A4/</id>
     <published>2024-01-12T08:09:17.000Z</published>
-    <updated>2024-01-12T08:09:47.464Z</updated>
+    <updated>2024-01-23T08:42:11.772Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="一-hexo文章的提交"><a href="#一-hexo文章的提交" class="headerlink" title="一.hexo文章的提交"></a>一.hexo文章的提交</h2><p><strong>1.清理网页缓存数据</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br></pre></td></tr></table></figure><p><strong>2.</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g</span><br></pre></td></tr></table></figure><p><strong>3.部署到github</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure><p>4.新建一篇文章</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo n 文章名</span><br></pre></td></tr></table></figure><blockquote><p>这是一段引用</p></blockquote><p><em>斜体</em></p><p><img src="http://8.130.18.80:8003/i/ebf77d2f-269a-437c-9a8c-86f281b8572e.jpg" alt="image"></p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hello world 代码块</span><br></pre></td></tr></table></figure><p>这是一串代码<code>hello world</code>,你好</p><p>Yol的博客：<a href="https://xu-zi-kang.github.io/">点击进入</a></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="一-hexo文章的提交"><a href="#一-hexo文章的提交" class="headerlink" title="一.hexo文章的提交"></a>一.hexo文章的提交</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure><p><strong>1.清理网页缓存数据</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br></pre></td></tr></table></figure><p><strong>2.</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g</span><br></pre></td></tr></table></figure><p><strong>3.部署到github</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure><p>4.新建一篇文章</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo n 文章名</span><br></pre></td></tr></table></figure><blockquote><p>这是一段引用</p></blockquote><p><em>斜体</em></p><p><img src="http://8.130.18.80:8003/i/ebf77d2f-269a-437c-9a8c-86f281b8572e.jpg" alt="image"></p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hello world 代码块</span><br></pre></td></tr></table></figure><p>这是一串代码<code>hello world</code>,你好</p><p>Yol的博客：<a href="https://xu-zi-kang.github.io/">点击进入</a></p>]]></content>
     
     
       
       
-    <summary type="html">&lt;h2 id=&quot;一-hexo文章的提交&quot;&gt;&lt;a href=&quot;#一-hexo文章的提交&quot; class=&quot;headerlink&quot; title=&quot;一.hexo文章的提交&quot;&gt;&lt;/a&gt;一.hexo文章的提交&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;1.清理网页缓存数据&lt;/strong&gt;&lt;/p&gt;
-&lt;f</summary>
+    <summary type="html">&lt;h2 id=&quot;一-hexo文章的提交&quot;&gt;&lt;a href=&quot;#一-hexo文章的提交&quot; class=&quot;headerlink&quot; title=&quot;一.hexo文章的提交&quot;&gt;&lt;/a&gt;一.hexo文章的提交&lt;/h2&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;</summary>
       
     
     

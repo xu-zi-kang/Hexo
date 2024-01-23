@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://xu-zi-kang.github.io/2024/01/12/hexo%E6%8C%87%E4%BB%A4/</loc>
+    
+    <lastmod>2024-01-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xu-zi-kang.github.io/2024/01/23/%E3%80%90%E5%B0%8F%E9%9B%85%E3%80%91%E8%87%AA%E5%8A%A8%E6%B8%85%E7%90%86%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98%E7%BC%93%E5%AD%98/</loc>
+    
+    <lastmod>2024-01-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xu-zi-kang.github.io/2024/01/23/%E3%80%90git%E3%80%91%E5%AE%8C%E7%BE%8E%E8%A7%A3%E5%86%B3git%E6%8A%A5%E9%94%99/</loc>
+    
+    <lastmod>2024-01-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xu-zi-kang.github.io/2024/01/23/%E3%80%90git%E3%80%91%E7%94%9F%E6%88%90sshKey%E5%AF%86%E5%8C%99/</loc>
     
     <lastmod>2024-01-23</lastmod>
@@ -39,15 +66,6 @@
   
   <url>
     <loc>https://xu-zi-kang.github.io/2024/01/12/Linux%E7%9B%B8%E5%85%B3%E6%93%8D%E4%BD%9C/</loc>
-    
-    <lastmod>2024-01-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xu-zi-kang.github.io/2024/01/12/hexo%E6%8C%87%E4%BB%A4/</loc>
     
     <lastmod>2024-01-12</lastmod>
     
