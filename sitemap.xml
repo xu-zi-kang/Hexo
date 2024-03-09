@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://xu-zi-kang.github.io/2024/03/09/%E5%A4%A9%E6%B4%A5%E9%9D%A2%E8%AF%95%E5%85%AC%E5%8F%B8%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93/</loc>
+    
+    <lastmod>2024-03-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xu-zi-kang.github.io/2024/01/12/hexo%E6%8C%87%E4%BB%A4/</loc>
     
     <lastmod>2024-03-07</lastmod>
@@ -112,11 +121,18 @@
 
   <url>
     <loc>https://xu-zi-kang.github.io/</loc>
-    <lastmod>2024-03-07</lastmod>
+    <lastmod>2024-03-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
+  
+  <url>
+    <loc>https://xu-zi-kang.github.io/tags/%E9%9D%A2%E8%AF%95/</loc>
+    <lastmod>2024-03-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
 
   
