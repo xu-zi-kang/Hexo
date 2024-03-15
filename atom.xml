@@ -39,4 +39,26 @@
     
   </entry>
   
+  <entry>
+    <title>【hexo】hexo报错解决办法</title>
+    <link href="https://xu-zi-kang.github.io/2024/01/12/%E3%80%90hexo%E3%80%91hexo%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/"/>
+    <id>https://xu-zi-kang.github.io/2024/01/12/%E3%80%90hexo%E3%80%91hexo%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</id>
+    <published>2024-01-12T10:30:40.000Z</published>
+    <updated>2024-03-15T15:29:34.626Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="hexo发生error：spawn-failed错误的解决方法"><a href="#hexo发生error：spawn-failed错误的解决方法" class="headerlink" title="hexo发生error：spawn failed错误的解决方法"></a>hexo发生error：spawn failed错误的解决方法</h1><h2 id="问题描述："><a href="#问题描述：" class="headerlink" title="问题描述："></a>问题描述：</h2><ul><li>先是出现错误：<br><code>error：spawn failed...</code></li><li>然后经过一些博客的操作会出现以下问题：<br><code>fatal: cannot lock ref &#39;HEAD&#39;: unable to resolve reference HEAD: Invalid argument error: src refspec</code></li><li>或者：<br><code>error: src refspec HEAD does not match any.</code>等等</li><li>总结一下：<br>问题大多是因为git 进行push或者hexo d的时候改变了一些.deploy_git文件下的内容。</li></ul><h3 id="解决办法："><a href="#解决办法：" class="headerlink" title="解决办法："></a>解决办法：</h3><p>1.删除<code>.deploy_git</code>文件夹;<br>2.输入<code>git config --global core.autocrlf false</code><br>3，然后，依次执行：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure><p>问题解决。暴力直接，有效。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;hexo发生error：spawn-failed错误的解决方法&quot;&gt;&lt;a href=&quot;#hexo发生error：spawn-failed错误的解决方法&quot; class=&quot;headerlink&quot; title=&quot;hexo发生error：spawn failed错误的解决方</summary>
+      
+    
+    
+    
+    
+    <category term="-hexo" scheme="https://xu-zi-kang.github.io/tags/hexo/"/>
+    
+  </entry>
+  
 </feed>
