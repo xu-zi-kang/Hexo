@@ -39,44 +39,4 @@
     
   </entry>
   
-  <entry>
-    <title>【git】完美解决git报错</title>
-    <link href="https://xu-zi-kang.github.io/2024/01/23/%E3%80%90git%E3%80%91%E5%AE%8C%E7%BE%8E%E8%A7%A3%E5%86%B3git%E6%8A%A5%E9%94%99/"/>
-    <id>https://xu-zi-kang.github.io/2024/01/23/%E3%80%90git%E3%80%91%E5%AE%8C%E7%BE%8E%E8%A7%A3%E5%86%B3git%E6%8A%A5%E9%94%99/</id>
-    <published>2024-01-23T08:37:50.000Z</published>
-    <updated>2024-03-14T13:05:30.935Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="完美解决-git报错fatal-unable-to-access-‘https-github-com-git‘-Recv-failure-Connection-was-reset"><a href="#完美解决-git报错fatal-unable-to-access-‘https-github-com-git‘-Recv-failure-Connection-was-reset" class="headerlink" title="完美解决 git报错fatal: unable to access ‘https://github.com/.../.git‘:Recv failure Connection was reset"></a>完美解决 git报错fatal: unable to access ‘<a href="https://github.com/.../.git%E2%80%98:Recv">https://github.com/.../.git‘:Recv</a> failure Connection was reset</h1><p>在使用git时，经常会碰到这个错误：fatal: unable to access ‘<a href="https://github.com/.../.git':Recv">https://github.com/.../.git&#39;:Recv</a> failure Connection was reset。</p><p>结合我个人最近的使用经验，提供两个方法，亲测有效。</p><p>方法一<br>该方法也是最常见的方法，那就是在终端执行：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global --unset http.proxy </span><br><span class="line">git config --global --unset https.proxy</span><br></pre></td></tr></table></figure><h2 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h2><p>本人之前在使用git时，有些时候使用方法一就能解决问题，有些时候还是会报错，下面这个方法，能够完美地解决报错。</p><p><a href="https://so.csdn.net/so/search?q=%E7%B3%BB%E7%BB%9F%E8%AE%BE%E7%BD%AE&spm=1001.2101.3001.7020">系统设置</a>搜索代理，然后点击编辑按钮：<br><img src="https://cdn.jsdelivr.us/gh/Asakushen/pic/2024/03/07/3e80db.png" alt="在这里插入图片描述"></p><p>打开<a href="https://so.csdn.net/so/search?q=%E4%BB%A3%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8&spm=1001.2101.3001.7020">代理服务器</a>，端口设置为<code>7890</code>，这个对你正常上网没有影响，可以放心设置。然后点击保存。</p><p><img src="https://cdn.jsdelivr.us/gh/Asakushen/pic/2024/03/07/2723b2.png" alt="在这里插入图片描述"></p><p>然后在终端输入命令：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --global http.proxy http://127.0.0.1:7890</span><br></pre></td></tr></table></figure><p>这样就大功告成了。可以在终端输入<code>git config --global -l</code>加以检验是否设置成功：</p><p><img src="https://cdn.jsdelivr.us/gh/Asakushen/pic/2024/03/07/41c5b9.png" alt="在这里插入图片描述"></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;完美解决-git报错fatal-unable-to-access-‘https-github-com-git‘-Recv-failure-Connection-was-reset&quot;&gt;&lt;a href=&quot;#完美解决-git报错fatal-unable-to-acces</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>【git】生成sshKey密匙</title>
-    <link href="https://xu-zi-kang.github.io/2024/01/23/%E3%80%90git%E3%80%91%E7%94%9F%E6%88%90sshKey%E5%AF%86%E5%8C%99/"/>
-    <id>https://xu-zi-kang.github.io/2024/01/23/%E3%80%90git%E3%80%91%E7%94%9F%E6%88%90sshKey%E5%AF%86%E5%8C%99/</id>
-    <published>2024-01-23T07:24:08.000Z</published>
-    <updated>2024-03-14T13:04:55.584Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="3-1-生成ssh-key"><a href="#3-1-生成ssh-key" class="headerlink" title="3-1 生成ssh key"></a>3-1 生成ssh key</h2><p>首先检查是否已生成密钥 <code>cd ~/.ssh</code>，ls如果有2个文件，则密钥已经生成，id_rsa.pub就是公钥</p><p><img src="https://cdn.jsdelivr.usn/gh/Asakushen/pic/2024/03/07/ff7e40.png" alt="img"></p><p>也可以打开我的电脑C:\Users\Y\ .ssh 里面找到</p><p><img src="https://cdn.jsdelivr.usn/gh/Asakushen/pic/2024/03/07/57c7b6.png" alt="img"></p><p>如果没有生成，那么通过$ ssh-keygen -t rsa -C “<a href="mailto:&#120;&#x78;&#x78;&#120;&#x78;&#120;&#64;&#x31;&#x36;&#x33;&#46;&#x63;&#111;&#109;">&#120;&#x78;&#x78;&#120;&#x78;&#120;&#64;&#x31;&#x36;&#x33;&#46;&#x63;&#111;&#109;</a>”来生成。</p><p>1）是路径确认，直接按回车存默认路径即可</p><p>2）直接回车键，这里我们不使用密码进行登录, 用密码太麻烦;</p><p>3）直接回车键</p><p><img src="https://cdn.jsdelivr.usn/gh/Asakushen/pic/2024/03/07/440b62.png" alt="img"></p><p>生成成功后，去对应目录C:\Users\Y\ .ssh里（Y为电脑用户名，每个人不同）用记事本打开id_rsa.pub，得到ssh key公钥</p><p><img src="https://cdn.jsdelivr.usn/gh/Asakushen/pic/2024/03/07/c6ea3b.png" alt="img"></p><h2 id="3-2-为github账号配置ssh-key"><a href="#3-2-为github账号配置ssh-key" class="headerlink" title="3-2 为github账号配置ssh key"></a>3-2 为github账号配置ssh key</h2><p>切换到github，展开个人头像的小三角，点击settings</p><p><img src="https://cdn.jsdelivr.usn/gh/Asakushen/pic/2024/03/07/b6e5e3.png" alt="img"></p><p>然后打开SSH keys菜单， 点击Add SSH key新增密钥，填上标题，跟仓库保持一致吧，好区分。</p><p>接着将id_rsa.pub文件中key粘贴到此，最后Add key生成密钥吧。</p><p><img src="https://cdn.jsdelivr.usn/gh/Asakushen/pic/2024/03/07/d2a30c.png" alt="img"></p><p>如此，github账号的SSH keys配置完成。</p><p><img src="https://cdn.jsdelivr.usn/gh/Asakushen/pic/2024/03/07/44fb32.png" alt="img"></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;3-1-生成ssh-key&quot;&gt;&lt;a href=&quot;#3-1-生成ssh-key&quot; class=&quot;headerlink&quot; title=&quot;3-1 生成ssh key&quot;&gt;&lt;/a&gt;3-1 生成ssh key&lt;/h2&gt;&lt;p&gt;首先检查是否已生成密钥 &lt;code&gt;cd ~/.ss</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
 </feed>
