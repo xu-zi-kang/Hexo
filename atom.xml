@@ -6,7 +6,7 @@
   <link href="https://xu-zi-kang.github.io/atom.xml" rel="self"/>
   
   <link href="https://xu-zi-kang.github.io/"/>
-  <updated>2024-03-18T13:14:02.745Z</updated>
+  <updated>2024-03-20T13:57:49.940Z</updated>
   <id>https://xu-zi-kang.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【面试】面试回答流程</title>
+    <link href="https://xu-zi-kang.github.io/2024/03/20/%E3%80%90%E9%9D%A2%E8%AF%95%E3%80%91%E9%9D%A2%E8%AF%95%E5%9B%9E%E7%AD%94%E6%B5%81%E7%A8%8B/"/>
+    <id>https://xu-zi-kang.github.io/2024/03/20/%E3%80%90%E9%9D%A2%E8%AF%95%E3%80%91%E9%9D%A2%E8%AF%95%E5%9B%9E%E7%AD%94%E6%B5%81%E7%A8%8B/</id>
+    <published>2024-03-20T13:36:51.000Z</published>
+    <updated>2024-03-20T13:57:49.940Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="1-你还有什么问题想问的吗？"><a href="#1-你还有什么问题想问的吗？" class="headerlink" title="1.你还有什么问题想问的吗？"></a>1.你还有什么问题想问的吗？</h1><p><strong>您觉得我是否符合这个岗位的预期？</strong></p><p><strong>交流的还不错</strong>：</p><ol><li>如果我有幸任职咱们公司，我的岗位具体会负责哪些内容？</li><li>需要跟公司的哪些人哪些部门进行工作的对接？公司现在的发展重心是在哪里？</li><li>未来发展方向的重点会放在哪里？</li><li>能介绍一下公司当前的业务和产品的侧重点吗？</li><li>团队规模？</li></ol><hr><p><strong>交流的不行</strong>：</p><ol><li>您觉得我今天有哪些不足，感觉您也是特别有经验的所以也特别想听听您的建议。</li><li>您觉得我对于这个岗位还有哪些差距？并且您觉得我在这个岗位上都要重点提升哪些方面？</li></ol><h1 id="2-自我介绍的思路"><a href="#2-自我介绍的思路" class="headerlink" title="2.自我介绍的思路"></a>2.自我介绍的思路</h1><p><strong>如果发现自己说的话偏离主题了</strong>：所以针对您刚才提出的问题，我是这样考虑的。</p><p><strong>问</strong>：请简单介绍一下你做的项目。当你拿到一个需求之后都会做些什么？怎么处理？哪些步骤？</p><p><strong>讲故事的方式进行回答</strong>：</p><ol><li>做这个事情的背景&#x2F;大前提是什么？你的动机是什么？需求的来源是什么？</li></ol><p>​是为了追逐市场空间，流量增长，变现能力。</p><ol start="2"><li><p>分析了哪些数据？对比了哪些竞品？他们是怎么做的？实际的业务场景和哪些业务人员是怎么样沟通的？</p><p>做了哪些工作？得出了什么样的结论？最后决定是怎么样去做的？</p></li></ol><p>​制作产品的简单介绍以及简单功能—流程</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;1-你还有什么问题想问的吗？&quot;&gt;&lt;a href=&quot;#1-你还有什么问题想问的吗？&quot; class=&quot;headerlink&quot; title=&quot;1.你还有什么问题想问的吗？&quot;&gt;&lt;/a&gt;1.你还有什么问题想问的吗？&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;您觉得我是否符合这个岗位的预</summary>
+      
+    
+    
+    
+    
+    <category term="-面试" scheme="https://xu-zi-kang.github.io/tags/%E9%9D%A2%E8%AF%95/"/>
+    
+  </entry>
   
   <entry>
     <title>【hexo】评论系统总结</title>
