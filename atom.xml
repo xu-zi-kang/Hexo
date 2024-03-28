@@ -6,7 +6,7 @@
   <link href="https://xu-zi-kang.github.io/atom.xml" rel="self"/>
   
   <link href="https://xu-zi-kang.github.io/"/>
-  <updated>2024-03-20T13:57:49.940Z</updated>
+  <updated>2024-03-28T11:03:41.113Z</updated>
   <id>https://xu-zi-kang.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【面试】深圳众云网</title>
+    <link href="https://xu-zi-kang.github.io/2024/03/28/%E3%80%90%E9%9D%A2%E8%AF%95%E3%80%91%E6%B7%B1%E5%9C%B3%E4%BC%97%E4%BA%91%E7%BD%91/"/>
+    <id>https://xu-zi-kang.github.io/2024/03/28/%E3%80%90%E9%9D%A2%E8%AF%95%E3%80%91%E6%B7%B1%E5%9C%B3%E4%BC%97%E4%BA%91%E7%BD%91/</id>
+    <published>2024-03-28T11:03:18.000Z</published>
+    <updated>2024-03-28T11:03:41.113Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="深圳众云面试"><a href="#深圳众云面试" class="headerlink" title="深圳众云面试"></a>深圳众云面试</h1><h2 id="1-自我介绍"><a href="#1-自我介绍" class="headerlink" title="1.自我介绍"></a>1.自我介绍</h2><p>对售前工程师的理解：链接销售和研发之间的纽带&#x2F;桥梁</p><p>对行业的理解：可以说一下对网络安全行业的看法、对行业前景的可观性。</p><p>对公司的了解：提前去网上了解下你面试的公司，大概就能说出一些了</p><p>专业技能：虽说售前不需要你去敲代码，但是你有些产品类的售前是需要具备产品环境部署能力的，这个时候你可以把你在学校学的一些专业课程挑些来说。另外，售前的工作几乎全部依赖于Office，所以你也可以说说你的Office的熟练程度；</p><p>优缺点：尽量往售前工程师招聘要求的去说你的优点，比如自己的沟通表达能力、文字功底能力、学习理解能力等等；</p><p>职业规划：大部分面试官都会问这个问题吧，分长期和短期的来说下你的职业规划。：想干技术和其他领域交织的，技术➕产品，技术➕销售</p><p><strong>用户大部分技术问题都能代表公司独当一面给出权威解释，是公司技术的代言人，客户信任的专家顾问</strong></p><h2 id="2-问题"><a href="#2-问题" class="headerlink" title="2.问题"></a>2.问题</h2><ol><li><p>请介绍一下你对网络安全的理解和认识？</p><p>网络安全是指保护计算机网络和网络资源不受未授权的访问、攻击、盗窃、损害等威胁的技术和实践。它围绕数据的保密性、完整性和可用性展开，旨在确保信息和通信技术系统的安全和稳定运行。网络安全不仅包括防止恶意软件（如病毒、蠕虫、间谍软件）的侵害，还涵盖了数据保护、应用安全、网络服务的安全、以及防止网络攻击（如DDoS攻击、钓鱼、社交工程）等多个方面。</p></li><li><p>你对网络安全产品和技术有一些了解吗？</p><p>网络安全产品和技术广泛而多样，主要可以分为几大类：</p><ul><li><strong>防火墙和入侵检测系统（IDS&#x2F;IPS）</strong>：用于监控和控制网络流量，阻止未授权的访问和潜在的攻击。</li><li><strong>恶意软件防护软件</strong>：包括杀毒软件、反间谍软件等，用于检测、隔离和清除恶意软件。</li><li><strong>加密技术</strong>：用于保护数据的保密性和完整性，包括传输层安全协议（TLS）、安全套接字层（SSL）、以及各种加密算法。</li><li><strong>身份和访问管理（IAM）</strong>：包括密码管理、多因素认证、权限管理等，用于确保只有授权用户才能访问网络资源。</li><li><strong>安全信息和事件管理（SIEM）</strong>：用于实时监视、分析网络安全事件，帮助企业及时发现和响应安全威胁。</li><li><strong>数据泄露防护（DLP）</strong>：用于防止敏感数据的未授权访问和泄露。</li></ul></li><li><p>你对网络安全行业的发展趋势有什么看法？</p><ul><li><p><strong>人工智能与机器学习</strong>：随着人工智能和机器学习技术的发展，网络安全产品正在变得更加智能，能够自动识别和响应新出现的威胁。</p></li><li><p><strong>云安全</strong>：随着越来越多的企业采用云计算，云安全成为了一个重要议题。保护云环境的数据和应用，确保云服务的安全，是当前网络安全的一个重要方向。</p></li><li><p><strong>零信任安全模型</strong>：传统的安全模型基于“信任但验证”的原则，而零信任安全模型认为不应默认信任任何内外网络请求，所有访问都需进行严格验证。</p></li><li><p><strong>法规和合规要求的加强</strong>：随着数据保护法规（如欧盟的GDPR、加州的CCPA）的实施，企业在网络安全上的投入增加，以确保合规性。</p></li><li><p><strong>供应链安全</strong>：软件供应链攻击日益频繁，强调了供应链安全的重要性。企业需要确保他们所依赖的第三方服务和组件的安全性。</p><hr></li></ul></li></ol><p>身为三星级酒店服务的人是很多的因此选择一个大品牌有必要的</p><p>农夫山泉的产业链和供应链更完备能及时供货，本地品牌小品牌供货不稳定资金链不稳定</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;深圳众云面试&quot;&gt;&lt;a href=&quot;#深圳众云面试&quot; class=&quot;headerlink&quot; title=&quot;深圳众云面试&quot;&gt;&lt;/a&gt;深圳众云面试&lt;/h1&gt;&lt;h2 id=&quot;1-自我介绍&quot;&gt;&lt;a href=&quot;#1-自我介绍&quot; class=&quot;headerlink&quot; titl</summary>
+      
+    
+    
+    
+    
+    <category term="-面试" scheme="https://xu-zi-kang.github.io/tags/%E9%9D%A2%E8%AF%95/"/>
+    
+  </entry>
   
   <entry>
     <title>【面试】面试回答流程</title>
